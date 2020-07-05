@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register form</title>
+</head>
+
+<body>
+    <form>
+        <h1>Register</h1>
+        <label for="firstName" input="text">First Name:</label>
+        <input type="text" id="name" name="firstName" placeholder="firstname" required>
+
+        <label for="lastName" input="text">Last Name:</label>
+        <input name="lastname" type="text" placeholder="lastname" required>
+        <div>
+            <label for="male">Male</label>
+            <input name="genderChoice" id="male" type="radio" value="Male">
+            <label for="female">Female</label>
+            <input name="genderChoice" id="female" type="radio" value="Female">
+            <label for="other">Other</label>
+            <input name="genderChoice" id="other" type="radio" value="other">
+        </div>
+        <div>
+            <label for="email" input="email">Email:</label>
+            <input id="email" input type="email" name="email">
+            <label for="password"> Password</label>
+            <input id="password" type="password" placeholder="password" minlength="5" maxlength="15" required>
+        </div>
+        <div>
+            <label for=""></label>
+        </div>
+        <div><input type=submit></div>
+    </form>
+
+</body>
+
+</html>
