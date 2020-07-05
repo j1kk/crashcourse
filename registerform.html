@@ -17,22 +17,44 @@
         <input name="lastname" type="text" placeholder="lastname" required>
         <div>
             <label for="male">Male</label>
-            <input name="genderChoice" id="male" type="radio" value="Male">
+            <input name="genderChoice" id="male" type="radio" value="Male" required>
             <label for="female">Female</label>
-            <input name="genderChoice" id="female" type="radio" value="Female">
+            <input name="genderChoice" id="female" type="radio" value="Female" required>
             <label for="other">Other</label>
-            <input name="genderChoice" id="other" type="radio" value="other">
+            <input name="genderChoice" id="other" type="radio" value="other" required>
         </div>
         <div>
             <label for="email" input="email">Email:</label>
-            <input id="email" input type="email" name="email">
+            <input id="email" type="email" name="email" required>
             <label for="password"> Password</label>
-            <input id="password" type="password" placeholder="password" minlength="5" maxlength="15" required>
+            <input id="password" type="password" placeholder="password" minlength="5" maxlength="10" required>
         </div>
         <div>
-            <label for=""></label>
-        </div>
-        <div><input type=submit></div>
+            <label for="birthday">Birthdate:</label>
+                <select name="month" id="month" required>
+                        <option id="birthdate" value=""disabled selected>Month</option>
+                        <option value = "#">january</option>
+                        <option value = "#">february</option>
+                        <option value = "#">march</option>
+                        <option value = "#">april</option>
+                   </select>
+                <select name="day" id="day" required>
+                        <option value=""disabled selected>Day</option>
+                        <option value = "#">1</option>
+                        <option value = "#">2</option>
+                        <option value = "#">3</option>
+                        <option value = "#">4</option>
+                  </select>
+                <select name="year" id="year" required>
+                        <option value=""disabled selected>Year</option>
+                        <option value = "#">2016</option>
+                        <option value = "#">2017</option>
+                        <option value = "#">2018</option>
+                        <option value = "#">2019</option>
+                  </select>
+         <div>
+            
+        <button>Submit!</button>
     </form>
 
 </body>
