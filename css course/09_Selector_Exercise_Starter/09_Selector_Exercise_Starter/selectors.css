@@ -22,7 +22,7 @@ h2{
 
 /* Make all <li> elements blue(pick your own hexadecimal blue)*/ 
 li{
-    color: #080858;
+    color: #1c1ccc;
 }
 
 
@@ -94,9 +94,6 @@ label {
 
 /*Make the first letter of the element with id 'special' green and 100px font 
 size(font-size: 100)*/
-/* #special:nth-of-type(1){ 
-    color: green;
-    font-size: 100px;}*/
 #special::first-letter {
     color: green;
     font-size: 100px;

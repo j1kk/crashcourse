@@ -1,9 +1,21 @@
 h1 {
-    color: red;
+    color: rgba(0, 200, 100, .8);
+    /* border-color: pink;
+    border-width: 5px;
+    border-style: solid;*/
+    border: 2px dashed rgb(124, 176, 221);
 }
 li {
-    color: green;
+    color: rgb(238, 111, 26);
 }
 h4 {
     color: purple;
+    background-color: rgb(124, 176, 221);
+    
+}
+body {
+    background-color: rgb(87, 87, 24)
+
+    /* background-image: url(https://image.shutterstock.com/z/stock-photo-backgrounds-and-textures-concept-wooden-texture-or-background-296916767.jpg); */
+
 }
